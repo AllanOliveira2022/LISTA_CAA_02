@@ -1,0 +1,9 @@
+RESPOSTA (QUESTÃO 05)
+Algoritmo 01: 
+O primeiro percorre de 0 a n-1, e o segundo percorre de 1 a n. Portanto, a complexidade de tempo é O(n^2)
+
+Algoritmo 02:
+O primeiro loop aqui dobra o valor de i a cada iteração. Isso significa que o loop será executado log2(n) vezes. O segundo loop ainda percorre de 1 a n. Por isso, a complexidade de tempo total é O(n log n).
+
+Algoritmo 03:
+Nesse caso, o melhor caso é O(n)
