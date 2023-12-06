@@ -1,0 +1,16 @@
+Pesquisa1:
+Pior Caso: O(log n) - A cada chamada recursiva, o tamanho do array é reduzido para 1/3 do tamanho anterior.
+Melhor Caso: O(log n) - Semelhante ao pior caso, pois sempre reduz o tamanho em 1/3.
+
+Pesquisa2:
+Pior Caso: O(log n) - A cada chamada recursiva, o tamanho do array é reduzido para 3/5 do tamanho anterior.
+Melhor Caso: O(1) - Quando o tamanho do array é 1, a função retorna sem realizar chamadas recursivas.
+
+Pesquisa3:
+Pior Caso: O(n log n) - A cada chamada recursiva, o array é dividido em 2/3 do tamanho anterior, e há uma operação de ordenação.
+Melhor Caso: O(1) - Quando o tamanho do array é 1, a função retorna sem realizar chamadas recursivas.
+
+
+Enigma1 e Enigma2:
+Pior Caso (Quicksort): O(n^2) - No pior caso, o pivô escolhido sempre é o menor ou o maior elemento, levando a partições desequilibradas.
+Melhor Caso (Quicksort): O(n log n) - No melhor caso, o pivô divide o array em duas metades aproximadamente iguais.
