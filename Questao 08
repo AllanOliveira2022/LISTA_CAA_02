@@ -1,0 +1,15 @@
+PRIMEIRO ALGORITMO:
+Pior Caso: O(n^2) O pior caso ocorre quando o array está completamente desordenado, e são necessárias trocas em cada iteração.
+Melhor Caso: O(n) O melhor caso ocorre quando o array já está ordenado, mas ainda assim, é necessário percorrer o array para verificar que nenhuma troca é necessária.
+
+SEGUNDO ALGORITMO:
+Pior Caso: O(n^2) Similar ao Bubble Sort 1, pois pode haver trocas em cada iteração.
+Melhor Caso: O(n) Melhor caso ocorre quando o array já está ordenado, pois não são necessárias trocas.
+
+AlgumaCoisa: 
+Pior Caso: O(n^3) A função possui três loops aninhados.
+Melhor Caso: O(n^3) A complexidade não é afetada pela entrada, pois sempre há três loops aninhados.
+
+AlgumaCoisa2:
+Pior Caso: O(n^3), A função possui três loops aninhados.
+Melhor Caso: O(n^3), A complexidade não é afetada pela entrada.
